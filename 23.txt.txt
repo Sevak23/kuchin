@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокатская контора</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Адвокатская контора</h1>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#about">О нас</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#blog">Блог</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Добро пожаловать!</h2>
+    <p>Я адвокат с более чем 10-летним опытом работы в области юридических услуг. Моя специализация включает:</p>
+    <ul>
+        <li>Юридический консалтинг</li>
+        <li>Сопровождение сделок</li>
+        <li>Защита прав в суде</li>
+    </ul>
+    <h3>Контактная информация</h3>
+    <p>Email: example@example.com</p>
+    <p>Телефон: +7 (123) 456-78-90</p>
+
+    <h3>Форма обратной связи</h3>
+    <form class="contact-form">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Ваш email" required>
+        <textarea placeholder="Ваше сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+<section id="services">
+    <h2>Наши услуги</h2>
+    <ul>
+        <li>Юридический консалтинг</li>
+        <li>Сопровождение сделок</li>
+        <li>Защита прав в суде</li>
+        <li>Бесплатная консультация</li>
+    </ul>
+</section>
+
+<section id="about">
+    <h2>О нас</h2>
+    <p>Наша компания была основана в 2010 году с целью предоставления качественных юридических услуг. Мы ценим доверие наших клиентов и стремимся к достижению наилучших результатов.</p>
+</section>
+
+<section id="cases">
+    <h2>Кейсы</h2>
+    <p>Мы успешно решали следующие задачи:</p>
+    <ul>
+        <li>Защита клиента в уголовном деле.</li>
+        <li>Сопровождение сделки по покупке недвижимости.</li>
+        <li>Консультирование по вопросам семейного права.</li>
+    </ul>
+</section>
+
+<section id="blog">
+    <h2>Блог</h2>
+    <p>Читайте наши статьи на юридические темы, чтобы быть в курсе актуальных вопросов.</p>
+    <!-- Здесь можно добавить ссылки на статьи блога -->
+</section>
+<section id="contacts">
+    <h2>Контакты</h2>
+    <p>Адрес офиса: г. Москва, ул. Примерная, д.1</p>
+    <p>Телефон: +7 (123) 456-78-90</p>
+    <p>Email: example@example.com</p>
+    
+    <!-- Встраивание карты -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.551885469588!2d37.61729931586057!3d55.75581498059374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5c8e77b6d5%3A0x8f5c8b9e9c4e6e6!2z0JrQu9C40YHQvtC70YzRgtC10LrQsNCy0LDRgtCwLCAxLCAyMDAwMA!5e0!3m2!1sru!2sru!4v1616140993026!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2023 Адвокатская контора. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
